@@ -1,0 +1,16 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+Entity PW5 is
+
+Port ( A,B,C :  in STD_LOGIC;
+		F : out STD_LOGIC);
+end PW5;
+
+architecture Behavioral of PW5 is 
+
+Begin
+
+F<=A and B and C;
+
+end Behavioral;
